@@ -1,4 +1,4 @@
-# Rating-toxic-comments
+# Rating toxic comments
 
 (To write easily on a markdown : https://stackedit.io/app#)
 
