@@ -11,6 +11,7 @@ We need to score 14 000 comments based on their toxicity. The particularity of t
 
 
 ## How to build our training set ?
+### 1st idea :
 Our first idea was to use the workers judgement. We concatenated the less toxic comments and the most toxic comments in the same column. We gave a score of 1 if the worker said it was toxic and 0 if he said it was less toxic.
 But the basic idea is that one worker could have said that one comment is less toxic and that another said that is was the most toxic. So we aggregated the dataset by comments and took the mean of the score. 
 For instance a comment that has a score of 0.6 means that 60% of the workers who needed to classify this comment said that it was toxic.
