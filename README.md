@@ -12,7 +12,7 @@ Here is the wordcloud of the comments we need to score.
 
 <div align="center">
   
-<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/comments_to_score.PNG" width="500" height="300">
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/comments_to_score.PNG" width="450" height="275">
   
 </div>
 
