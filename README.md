@@ -2,7 +2,7 @@
 
 **Disclaimer** : this project contains **vulgar** text.
 
-In this project we are going to classify some comments of the Wikipedia Talk page. It is the fourth competition of jigsaw of classifying comments. They ask workers to judge individually 2 comments. They need to say which one is the less toxic and which one is the most. Asking whereas a comment is toxic or not is difficult as each person as his own sense of toxicity.
+In this project we are going to classify some comments of the Wikipedia Talk page. It is the fourth competition of jigsaw to classify comments. They ask workers to judge individually 2 comments. They need to say which one is the less toxic and which one is the most. Asking whereas a comment is toxic or not is difficult as each person as his own sense of toxicity.
 
 
 We need to score 14 000 comments based on their toxicity. The particularity of this data, is that we do not have a properly training dataset where we have the comments and their toxicity score. We then need to find a way to train our dataset.
@@ -18,7 +18,16 @@ For instance a comment that has a score of 0.6 means that 60% of the workers who
 So we ended with a training set of around 14 000 comments.
 
 #### Building a CNN :
-Then we decided to build a convolutional neural network using bi-directional long short term memory neural network.
+Then we decided to build a convolutional neural network using long short term memory neural network.
 
 #### Using Ridge Regression :
 Using this type of regression helped us to improve our score, increasing by 0.08 with only the default parameters of the ridge regression. Controlling some parameter such as the precision or the regularization helped us to increase the score by 0.008 related to the basic regression. In final we have a score of 0.728.
+
+### 2nd idea :
+To imporve our score we decided to use another training set from a previous Jigsaw competition : https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/, where each comment can be categorized (a comment can be all of this 6 categories):
+- 1 if the comment is toxic
+- 1 if the comment is severe_toxic
+- 1 if the comment is obscene
+- 1 if the comment is threat
+- 1 if the comment is insult
+- 1 if the comment is identity_hate
