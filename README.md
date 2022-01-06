@@ -16,8 +16,8 @@ The first step of this project was to clean the data, to do so we created a func
 - it removes mentions,
 - it removes punctuations,
 - it removes extra white space,
-- it removes stop words (i.e. the words that are the most used and that are thus not relevant to study (*I, are, have, can...*),
-- it lemmatize the text (i.e. the words that are a trasnformation of other words are modified  (*rocks -> rock, pulled -> pull*).
+- it removes stop words (i.e. the words that are the most used and that are thus not relevant to study (*I, are, have, can...*)),
+- it lemmatize the text (i.e. the words that are a transformation of other words are modified  (*rocks -> rock, pulled -> pull*)).
 
 ## Some descriptive statistics
 Here is the wordcloud of the comments we need to score.
