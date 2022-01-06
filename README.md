@@ -27,11 +27,13 @@ Then we decided to build a convolutional neural network using long short term me
 Using this type of regression helped us to improve our score, increasing by 0.08 with only the default parameters of the ridge regression. Controlling some parameter such as the precision or the regularization helped us to increase the score by 0.008 related to the basic regression. 
 
 <div align="center">
+  
 |      **Model**      | **Accuracy** |
 |:-------------------:|:------------:|
 |      CNN : LSTM     |     0.657    |
 | Ridge no parameters |     0.720    |
 |   Ridge parameters  |     0.728    |
+  
 </div>
 
 ### 2nd idea :
