@@ -8,7 +8,16 @@ In this project we are going to classify some comments of the Wikipedia Talk pag
 We need to score 14 000 comments based on their toxicity. The particularity of this data, is that we do not have a properly training dataset where we have the comments and their toxicity score. We then need to find a way to train our dataset.
 
 ## Cleaning the data
-The first step of this project was to clean the data, to do so we created a function '''cleaning_text(text)''' 
+The first step of this project was to clean the data, to do so we created a function *cleaning_text()* :
+- it puts all the text in lower case, in order to have words comparable,
+- it removes URL,
+- it removes #,
+- it removes digits,
+- it removes mentions,
+- it removes punctuations,
+- it removes extra white space,
+- it removes stop words (i.e. the words that are the most used and that are thus not relevant to study (*I, are, have, can...*),
+- it lemmatize the text (i.e. the words that are a trasnformation of other words are modified  (*rocks -> rock, pulled -> pull*).
 
 ## Some descriptive statistics
 Here is the wordcloud of the comments we need to score.
