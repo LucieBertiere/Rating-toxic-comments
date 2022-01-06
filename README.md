@@ -7,6 +7,9 @@ In this project we are going to classify some comments of the Wikipedia Talk pag
 
 We need to score 14 000 comments based on their toxicity. The particularity of this data, is that we do not have a properly training dataset where we have the comments and their toxicity score. We then need to find a way to train our dataset.
 
+## Cleaning the data
+
+
 ## Some descriptive statistics
 Here is the wordcloud of the comments we need to score.
 
@@ -35,9 +38,11 @@ As our first model we decided to build a convolutional neural network using long
  
 
 On the above image you can see how a chunk of neural network in LSTM is build, having 3 different gates which can control previous and input information. 
+To build this model we first needed to tokenize and pad the clean comments. The padded sequence was quite long, a length of over 1000 index of words. 
+Then we built the model with 
 
  
-
+https://github.com/younesszaim/Text-Generation-M2-ECO-STAT-TSE
  
 
 #### Using Ridge Regression :
