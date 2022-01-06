@@ -89,7 +89,7 @@ Finally using this weighted ridge regression, we decided to ensemble 3 different
 We used :
 - α = 10 : the significance of the predictors must be high,
 - α = 1
-- α = 0.5 : the significan of the predictors can be low.
+- α = 0.5 : the significance of the predictors can be low.
 
 It is important to not use a too big α as it would tend to make all of our coefficients close to 0.
 
