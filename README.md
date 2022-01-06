@@ -24,7 +24,13 @@ So we ended with a training set of around 14 000 comments.
 Then we decided to build a convolutional neural network using long short term memory neural network.
 
 #### Using Ridge Regression :
-Using this type of regression helped us to improve our score, increasing by 0.08 with only the default parameters of the ridge regression. Controlling some parameter such as the precision or the regularization helped us to increase the score by 0.008 related to the basic regression. In final we have a score of 0.728.
+Using this type of regression helped us to improve our score, increasing by 0.08 with only the default parameters of the ridge regression. Controlling some parameter such as the precision or the regularization helped us to increase the score by 0.008 related to the basic regression. 
+
+|      **Model**      | **Accuracy** |
+|:-------------------:|:------------:|
+|      CNN : LSTM     |     0.657    |
+| Ridge no parameters |     0.720    |
+|   Ridge parameters  |     0.728    |
 
 ### 2nd idea :
 To imporve our score we decided to use another training set from a previous Jigsaw competition : https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/, where each comment can be categorized (a comment can be all of this 6 categories):
