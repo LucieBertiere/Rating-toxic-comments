@@ -26,6 +26,12 @@ So we ended with a training set of around 14 000 comments.
 #### Building a CNN :
 As our first model we decided to build a convolutional neural network using long short term memory neural network. These neural networks permit to have the information persisting. A simple example is for understanding a sentence we need to read the words as a whole set. Reading only one word does not able us to understand the sense of the sentence. 
 
+
+<div align="center">
+  
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/lstm_gates.PNG" width="500" height="300">
+  
+</div>
  
 
 On the above image you can see how a chunk of neural network in LSTM is build, having 3 different gates which can control previous and input information: 
