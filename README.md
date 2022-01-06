@@ -29,7 +29,7 @@ As our first model we decided to build a convolutional neural network using long
 
 <div align="center">
   
-<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/lstm_gates.PNG" width="500" height="300">
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/lstm_gates.PNG" width="500" height="200">
   
 </div>
  
