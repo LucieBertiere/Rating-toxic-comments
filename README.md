@@ -91,9 +91,9 @@ We used :
 - α = 1
 - α = 0.5 : the significan of the predictors can be low.
 
-It is important to not use a too big α as it would tend all of our coefficients to be 0.
+It is important to not use a too big α as it would tend to make all of our coefficients close to 0.
 
-Doing this helped us to go over the 0.8 of accuracy, and increase it by 0.02.
+Using this ensemble method helped us to go over the 0.8 of accuracy, and increase it by 0.02.
 
 
 
