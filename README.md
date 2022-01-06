@@ -84,7 +84,7 @@ Using the same Ridge model as the one we did with the first idea, we increase ou
 
 But then we thought about giving more weights to really toxic comments (i.e. those who are labelled as severe toxic, threatning or having identity hate). This would have the power to make our model distinguish better between non-toxic and toxic comments. This increased our model accuracy by 0.016.
 
-Finally using this weighted ridge regression, we decided to ensemble 3 different of this model, controlling the regularization parameter $$\alpha$$, to make our accuracy better. 
+Finally using this weighted ridge regression, we decided to ensemble 3 different of this model, controlling the regularization parameter $'\alpha'$, to make our accuracy better. 
 We used :
 - $$\alpha = 10$$
 - $$\alpha = 1$$
