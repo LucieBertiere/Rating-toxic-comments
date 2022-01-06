@@ -27,7 +27,8 @@ So we ended with a training set of around 14 000 comments.
 Then we decided to build a convolutional neural network using long short term memory neural network.
 
 #### Using Ridge Regression :
-Using this type of regression helped us to improve our score, increasing by 0.08 with only the default parameters of the ridge regression. Controlling some parameter such as the precision or the regularization helped us to increase the score by 0.008 related to the basic regression. 
+We used ridge regression as it is well known to work when we have a lot of predictors (specifically when we have more predictors than observations) and that these predictors are colinear. It is able to tell the difference between useful and unuseful predictors, which helps to avoid overfitting and increase the accuracy.
+Using this type of regression helped us to improve our score, increasing by 0.08 with only the default parameters of the ridge regression. Then we decided to control some parameter such as the precision or the regularization. This helped us to increase the score by 0.008 related to the basic regression. 
 
 <div align="center">
   
@@ -47,3 +48,8 @@ To improve our score we decided to use another training set from a previous Jigs
 - 1 if the comment is threat
 - 1 if the comment is insult
 - 1 if the comment is identity_hate
+
+#### Using SVD :
+
+#### Using Ridge Regression :
+Using the same Ridge model as the one we did with the first idea, we increase our score by almost 0.01.
