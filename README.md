@@ -84,3 +84,4 @@ Using the same Ridge model as the one we did with the first idea, we increase ou
 
 ## Bibliography
 (1) https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+(2) https://corporatefinanceinstitute.com/resources/knowledge/other/ridge/
