@@ -10,8 +10,11 @@ We need to score 14 000 comments based on their toxicity. The particularity of t
 ## Some descriptive statistics
 Here is the wordcloud of the comments we need to score.
 
+<div align="center">
+  
 <img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/comments_to_score.PNG" width="500" height="300">
-
+  
+</div>
 
 ## How to build our training set ?
 ### 1st idea :
