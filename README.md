@@ -34,7 +34,7 @@ As our first model we decided to build a convolutional neural network using long
 </div>
  
 
-On the above image you can see how a chunk of neural network in LSTM is build, having 3 different gates which can control previous and input information: 
+On the above image you can see how a chunk of neural network in LSTM is build, having 3 different gates which can control previous and input information. 
 
  
 
