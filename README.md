@@ -24,7 +24,15 @@ For instance a comment that has a score of 0.6 means that 60% of the workers who
 So we ended with a training set of around 14 000 comments.
 
 #### Building a CNN :
-Then we decided to build a convolutional neural network using long short term memory neural network.
+As our first model we decided to build a convolutional neural network using long short term memory neural network. These neural networks permit to have the information persisting. A simple example is for understanding a sentence we need to read the words as a whole set. Reading only one word does not able us to understand the sense of the sentence. 
+
+ 
+
+On the above image you can see how a chunk of neural network in LSTM is build, having 3 different gates which can control previous and input information: 
+
+ 
+
+ 
 
 #### Using Ridge Regression :
 We used ridge regression as it is well known to work when we have a lot of predictors (specifically when we have more predictors than observations) and that these predictors are colinear. It is able to tell the difference between useful and unuseful predictors, which helps to avoid overfitting and increase the accuracy.
