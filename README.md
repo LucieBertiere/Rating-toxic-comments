@@ -55,7 +55,7 @@ Our model contains 6 layers so it can learn more about the training set. The inp
 We then checked that the model had no overfitting on the test set. And we made the prediction, which was not so high a little bit more than 0.65.
 
 #### Using Ridge Regression :
-We used ridge regression as it is well known to work when we have a lot of predictors (specifically when we have more predictors than observations) and that these predictors are colinear. It is able to tell the difference between useful and unuseful predictors, which helps to avoid overfitting and increase the accuracy.
+We used ridge regression as it is well known to work when we have a lot of predictors (specifically when we have more predictors than observations) and that these predictors are colinear. It is able to tell the difference between useful and unuseful predictors, putting the unuseful coefficient close to 0, which helps to avoid overfitting and increase the accuracy.
 Using this type of regression helped us to improve our score, increasing by 0.08 with only the default parameters of the ridge regression. Then we decided to control some parameter such as the precision or the regularization. This helped us to increase the score by 0.008 related to the basic regression. 
 
 <div align="center">
@@ -84,11 +84,16 @@ Using the same Ridge model as the one we did with the first idea, we increase ou
 
 But then we thought about giving more weights to really toxic comments (i.e. those who are labelled as severe toxic, threatning or having identity hate). This would have the power to make our model distinguish better between non-toxic and toxic comments. This increased our model accuracy by 0.016.
 
-Finally using this weighted ridge regression, we decided to ensemble 3 different of this model, controlling the regularization parameter α, to make our accuracy better. 
+Finally using this weighted ridge regression, we decided to ensemble 3 different models, controlling the regularization parameter α, to make our accuracy better. 
+
 We used :
-- α = 10
+- α = 10 : the significance of the predictors must be high,
 - α = 1
-- α = 0.5
+- α = 0.5 : the significan of the predictors can be low.
+
+It is important to not use a too big α as it would tend all of our coefficients to be 0.
+
+Doing this helped us to go over the 0.8 of accuracy, and increase it by 0.02.
 
 
 
