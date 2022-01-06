@@ -67,3 +67,8 @@ To improve our score we decided to use another training set from a previous Jigs
 
 #### Using Ridge Regression :
 Using the same Ridge model as the one we did with the first idea, we increase our score by almost 0.01.
+
+
+
+## Bibliography
+(1) https://colah.github.io/posts/2015-08-Understanding-LSTMs/
