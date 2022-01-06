@@ -10,7 +10,7 @@ We need to score 14 000 comments based on their toxicity. The particularity of t
 ## Some descriptive statistics
 Here is the wordcloud of the comments we need to score.
 
-<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/comments_to_score.PNG" width="500" height="300">
+<img align="center" src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/comments_to_score.PNG" width="500" height="300">
 
 
 ## How to build our training set ?
@@ -25,12 +25,13 @@ Then we decided to build a convolutional neural network using long short term me
 
 #### Using Ridge Regression :
 Using this type of regression helped us to improve our score, increasing by 0.08 with only the default parameters of the ridge regression. Controlling some parameter such as the precision or the regularization helped us to increase the score by 0.008 related to the basic regression. 
+.center[
 
 |      **Model**      | **Accuracy** |
 |:-------------------:|:------------:|
 |      CNN : LSTM     |     0.657    |
 | Ridge no parameters |     0.720    |
-|   Ridge parameters  |     0.728    |
+|   Ridge parameters  |     0.728    |]
 
 ### 2nd idea :
 To imporve our score we decided to use another training set from a previous Jigsaw competition : https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/, where each comment can be categorized (a comment can be all of this 6 categories):
