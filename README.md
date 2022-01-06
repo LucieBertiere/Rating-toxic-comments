@@ -8,7 +8,7 @@ In this project we are going to classify some comments of the Wikipedia Talk pag
 We need to score 14 000 comments based on their toxicity. The particularity of this data, is that we do not have a properly training dataset where we have the comments and their toxicity score. We then need to find a way to train our dataset.
 
 ## Some descriptive statistics
-![comments_to_score_wordcloud](https://github.com/LucieBertiere/Rating-toxic-comments/Images/comments_to_score.PNG?raw=true)
+![plot](https://github.com/LucieBertiere/Rating-toxic-comments/Images/comments_to_score.PNG)
 
 ## How to build our training set ?
 ### 1st idea :
