@@ -49,6 +49,7 @@ As our first model we decided to build a convolutional neural network using long
 On the above image you can see how a chunk of neural network in LSTM is build, having 3 different gates which can control previous and input information. 
 To build this model we first needed to tokenize and pad the clean comments. The padded sequence was quite long, a length of over 1000 index of words. 
 Our model contains 6 layers so it can learn more about the training set. The input layer is the embedding one, which helps to compress the fature into a smaller space as it transforms words into their word embeddings. Then this input goes into the LSTM layer, the natural language processing layer. Then we added three dense layers for the model to learn more about the training set. And finally we added a final dense layer which gives the prediction of the toxicity of a comment (between 0 and 1 thanks to the sigmoid activation function).
+
 We then checked that the model had no overfitting on the test set. And we made the prediction, which was not so high a little bit more than 0.6.
 
 #### Using Ridge Regression :
