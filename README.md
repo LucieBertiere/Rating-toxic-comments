@@ -40,7 +40,7 @@ Using this type of regression helped us to improve our score, increasing by 0.08
 </div>
 
 ### 2nd idea :
-To imporve our score we decided to use another training set from a previous Jigsaw competition : https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/, where each comment can be categorized (a comment can be all of this 6 categories):
+To improve our score we decided to use another training set from a previous Jigsaw competition : https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/, where each comment can be categorized (a comment can be all of this 6 categories):
 - 1 if the comment is toxic
 - 1 if the comment is severe_toxic
 - 1 if the comment is obscene
