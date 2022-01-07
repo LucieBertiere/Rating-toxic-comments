@@ -10,10 +10,10 @@ This competition is evaluated using the **Average Agreement with Annotators**. T
 
 <div align="center">
 
-|                  |                       **Less toxic**                      |                            **More toxic**                           |
-|------------------|:---------------------------------------------------------:|:-------------------------------------------------------------------:|
-| Pair of comment  | Untill then don't waste my time  posting crap on my page. | Shut your mouth ! Dont tell me to be  civil because I am done here. |
-| Score prediction |                            0.9                            |                                 0.7                                 |
+|                    |                       **Less toxic**                      |                            **More toxic**                           |
+|--------------------|:---------------------------------------------------------:|:-------------------------------------------------------------------:|
+| **Pair of comment**| Untill then don't waste my time  posting crap on my page. | Shut your mouth ! Dont tell me to be  civil because I am done here. |
+|**Score prediction**|                            0.9                            |                                 0.7                                 |
 
 
 </div>
