@@ -132,7 +132,6 @@ We have the same results as in most of the papers, the Ridge Regression tends to
 |      Ridge with weights     |     0.783    |
 | Ensemble Ridge with weights |     0.803    |
 |       LR with weights       |     0.685    |
-|       MNB with weights      |              |
   
 </div>
 
@@ -150,7 +149,6 @@ We have the same results as in most of the papers, the Ridge Regression tends to
 |   Idea 2  |      Ridge with weights     |     0.783    |
 |   Idea 2  | Ensemble Ridge with weights |     0.803    |
 |   Idea 2  |       LR with weights       |     0.685    |
-|   Idea 2  |       MNB with weights      |              |
   
 </div>
 
