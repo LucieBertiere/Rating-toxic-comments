@@ -97,7 +97,7 @@ The most **frequent words** appearing in this dataset are:
 
 <div align="center">
   
-<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/frequent_words.png" width="450" height="275">
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/frequent_words.png" width="250" height="450">
   
 </div>
 
