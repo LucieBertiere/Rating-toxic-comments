@@ -73,6 +73,24 @@ The wordcloud corresponding to the more toxic comments is:
 
 Here, the words that appear most frequently in more toxic comments are more agressive: "fuck", "faggot", "wikipedia", "fucking", "nigger" and "shit".
 
+### Second dataset: Toxic Comment Classification Challenge 
+
+Comments are ranked with respect to their content into 5 categories: **toxic**, **severe toxic**, **obscene**, **threat**, **insult** and **identity hate**. These five variables are binary, i.e., 1 if the comment is classified in that category, 0 otherwise. A comment can be classified in several categories at the same time. We have checked how many commentes there are per category: 
+
+<div align="center">
+
+|      **Category**      | **Total** |
+|:-------------------:|:------------:|
+|       Toxic         |     15294    |
+|    Severe Toxic     |      1595    |
+|      Obsecne        |      8449    |
+|       Threat        |       478    |
+|       Insult        |      7877    |
+|    Identity hate    |      1405    |
+
+
+</div>
+
 
 ## How to build our training set ?
 ### 1st idea :
