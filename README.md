@@ -18,7 +18,10 @@ This competition is evaluated using the **Average Agreement with Annotators**. T
 
 </div>
 
-Submissions are evaluated on Average Agreement with Annotators. For the ground truth, annotators were shown two comments and asked to identify which of the two was more toxic. Pairs of comments can be, and often are, rated by more than one annotator, and may have been ordered differently by different annotators.
+Here our prediction gave a score of toxicity higher to the first comment, than the second one, which is not matching what the worker judged. Thus this pair receives a 0. Inversely if the prediction was matching the worker judgement, the pair would have received a 1.
+
+Finally, we take the average of all this match with the predictions which gives us the ranking for kaggle.
+
 
 ## Cleaning the data
 The first step of this project was to clean the data, to do so we created a function *cleaning_text()* :
