@@ -102,13 +102,17 @@ The most **frequent words** appearing in this dataset are "article", "page" and 
 </div>
 
 **Unbalanced data**
-We have noticed that this data is quite unbalanced by creating a score based on the sum of each of the 5 categories. By creating this new variable, we observed that almost 90% of the comments had a score of 0, which means that they were quite neutral because they did not belong to one of the five categories. In the following plot the different frequencies can be seen:
+
+We have noticed that this data is quite unbalanced by creating a score based on the sum of each of the 5 categories. By creating this new variable, we observed that almost 90% of the comments had a score of 0, which means that they were neutral because they did not belong to one of the five categories. In the following plot the different frequencies can be seen:
 
 <div align="center">
   
-<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/.png" width="250" height="425">
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/score_plot.png" width="300" height="300">
   
 </div>
+
+Hence, we had to rescale the data. 
+
 
 ## How to build our training set ?
 ### 1st idea :
