@@ -50,7 +50,29 @@ There are 7537 comments to score. Here is the wordcloud of these comments.
   
 </div>
 
+We can observe that the words that appear most frequently are "article", "fuck", "wikipedia", "page", "people" and "suck".
+
+
 As said before, there are less and more toxic comments in the available dataset. The wordcloud corresponding to the less toxic comments is:
+
+<div align="center">
+  
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/wdcloud_less.PNG" width="450" height="275">
+  
+</div>
+
+Here, the words that appear most frequently in less toxic comments are "page", "article", "wikipedia", "please", "people" and "talk".
+
+The wordcloud corresponding to the more toxic comments is:
+
+<div align="center">
+  
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/wdcloud_more.PNG" width="450" height="275">
+  
+</div>
+
+Here, the words that appear most frequently in more toxic comments are more agressive: "fuck", "faggot", "wikipedia", "fucking", "nigger" and "shit".
+
 
 ## How to build our training set ?
 ### 1st idea :
