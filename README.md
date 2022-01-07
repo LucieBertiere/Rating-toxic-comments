@@ -93,11 +93,20 @@ Comments are ranked with respect to their content into 5 categories: **toxic**, 
 
 We observe that there are much more comments classified as toxic. In fact, we have noticed that all the severe toxic comments are also considered as toxic as they are both equal to 1. 
 
-The most **frequent words** appearing in this dataset are:
+The most **frequent words** appearing in this dataset are "article", "page" and "wikipedia":
 
 <div align="center">
   
-<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/frequent_words.png" width="250" height="450">
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/frequent_words.png" width="250" height="425">
+  
+</div>
+
+**Unbalanced data**
+We have noticed that this data is quite unbalanced by creating a score based on the sum of each of the 5 categories. By creating this new variable, we observed that almost 90% of the comments had a score of 0, which means that they were quite neutral because they did not belong to one of the five categories. In the following plot the different frequencies can be seen:
+
+<div align="center">
+  
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/.png" width="250" height="425">
   
 </div>
 
