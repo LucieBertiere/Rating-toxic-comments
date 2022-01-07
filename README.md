@@ -41,13 +41,16 @@ The first step of this project was to clean the data, to do so we created a func
 Then we applied this function to all the comments to be able to do our models.
 
 ## Some descriptive statistics
-Here is the wordcloud of the comments we need to score.
+### First dataset
+There are 7537 comments to score. Here is the wordcloud of these comments.
 
 <div align="center">
   
 <img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/comments_to_score.PNG" width="450" height="275">
   
 </div>
+
+As said before, there are less and more toxic comments in the available dataset. The wordcloud corresponding to the less toxic comments is:
 
 ## How to build our training set ?
 ### 1st idea :
