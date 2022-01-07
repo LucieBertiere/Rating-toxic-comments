@@ -3,6 +3,10 @@
 **Disclaimer** : this project contains **vulgar** text.
 
 In this project we are going to classify some comments of the Wikipedia Talk page. It is the fourth competition of jigsaw to classify comments. They ask workers to judge individually 2 comments. They need to say which one is the less toxic and which one is the most. Asking whereas a comment is toxic or not is difficult as each person as his own sense of toxicity.
+  
+We need to score 14 000 comments based on their toxicity. The particularity of this data, is that we do not have a properly training dataset where we have the comments and their toxicity score. We then need to find a way to train our dataset.
+
+This competition is evaluated using the **Average Agreement with Annotators**. The test dataset has 200 000 observations which are pair of comments said to be toxic or not by workers. It contains the 14 000 comments to score. Our prediction is then use to rank the comment pair. Let's take an example :
 
 <div align="center">
 
@@ -13,13 +17,6 @@ In this project we are going to classify some comments of the Wikipedia Talk pag
 
 
 </div>
-  
-We need to score 14 000 comments based on their toxicity. The particularity of this data, is that we do not have a properly training dataset where we have the comments and their toxicity score. We then need to find a way to train our dataset.
-
-This competition is evaluated using the **Average Agreement with Annotators**. The test dataset has 200 000 observations which are pair of comments said to be toxic or not by workers. It contains the 14 000 comments to score. Our prediction is then use to rank the comment pair. Let's take an example :
-
-
-
 
 Submissions are evaluated on Average Agreement with Annotators. For the ground truth, annotators were shown two comments and asked to identify which of the two was more toxic. Pairs of comments can be, and often are, rated by more than one annotator, and may have been ordered differently by different annotators.
 
