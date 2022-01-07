@@ -133,6 +133,25 @@ We have the same results as in most of the papers, the Ridge Regression tends to
   
 </div>
 
+## Conclusion 
+
+<div align="center">
+  
+| **Ideas** |          **Model**          | **Accuracy** |
+:----------:|:---------------------------:|:------------:|
+|   Idea 1  |          CNN : LSTM         |     0.657    |
+|   Idea 1  |      Ridge no parameters    |     0.720    |
+|   Idea 1  |        Ridge parameters     |     0.728    |
+:----------:|:---------------------------:|:------------:|
+|   Idea 2  |             SVD             |     0.758    |
+|   Idea 2  |            Ridge            |     0.767    |
+|   Idea 2  |      Ridge with weights     |     0.783    |
+|   Idea 2  | Ensemble Ridge with weights |     0.803    |
+|   Idea 2  |       LR with weights       |     0.685    |
+|   Idea 2  |       MNB with weights      |              |
+  
+</div>
+
 ## Bibliography
 (1) https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
