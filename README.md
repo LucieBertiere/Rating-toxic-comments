@@ -57,7 +57,7 @@ As said before, there are less and more toxic comments in the available dataset.
 
 <div align="center">
   
-<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/wdcloud_less.PNG" width="450" height="275">
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/wdcloud_less.png" width="450" height="275">
   
 </div>
 
@@ -67,7 +67,7 @@ The wordcloud corresponding to the more toxic comments is:
 
 <div align="center">
   
-<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/wdcloud_more.PNG" width="450" height="275">
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/wdcloud_more.png" width="450" height="275">
   
 </div>
 
