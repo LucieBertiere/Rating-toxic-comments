@@ -41,7 +41,7 @@ The first step of this project was to clean the data, to do so we created a func
 Then we applied this function to all the comments to be able to do our models.
 
 ## Some descriptive statistics
-### First dataset
+### First dataset: Jigsaw Rate Severity of Toxic Comments
 There are 7537 comments to score. Here is the wordcloud of these comments.
 
 <div align="center">
@@ -91,6 +91,15 @@ Comments are ranked with respect to their content into 5 categories: **toxic**, 
 
 </div>
 
+We observe that there are much more comments classified as toxic. In fact, we have noticed that all the severe toxic comments are also considered as toxic as they are both equal to 1. 
+
+The most **frequent words** appearing in this dataset are:
+
+<div align="center">
+  
+<img src="https://github.com/LucieBertiere/Rating-toxic-comments/blob/main/Images/.png" width="450" height="275">
+  
+</div>
 
 ## How to build our training set ?
 ### 1st idea :
