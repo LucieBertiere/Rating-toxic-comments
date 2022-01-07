@@ -101,9 +101,6 @@ with weights
 
 We have the same results as in most of the papers, the Ridge Regression tends to have a better accuracy thanks to its coefficients selection.
 
-### 3r idea :
-There exist a library called **TextBlob**. This library permits given a text to give the polarity and subjectivity of a sentence. What interests us is the value of the polarity, ranging from -1 (negative sentiment in the text) to 1 (positive sentiment in the text).
-
 
 
 ## Bibliography
