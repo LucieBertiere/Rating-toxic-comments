@@ -95,6 +95,12 @@ It is important to not use a too big α as it would tend to make all of our coef
 
 Using this ensemble method helped us to go over the 0.8 of accuracy, and increase it by 0.02.
 
+#### Using Linear Regression
+
+with weights
+
+We have the same results as in most of the papers, the Ridge Regression tends to have a better accuracy thanks to its coefficients selection.
+
 
 
 ## Bibliography
