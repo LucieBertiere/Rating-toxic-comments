@@ -117,7 +117,21 @@ with weights
 
 We have the same results as in most of the papers, the Ridge Regression tends to have a better accuracy thanks to its coefficients selection.
 
+#### Using MNB 
 
+
+<div align="center">
+  
+|          **Model**          | **Accuracy** |
+|:---------------------------:|:------------:|
+|             SVD             |     0.758    |
+|            Ridge            |     0.767    |
+|      Ridge with weights     |     0.783    |
+| Ensemble Ridge with weights |     0.803    |
+|       LR with weights       |     0.685    |
+|       MNB with weights      |              |
+  
+</div>
 
 ## Bibliography
 (1) https://colah.github.io/posts/2015-08-Understanding-LSTMs/
