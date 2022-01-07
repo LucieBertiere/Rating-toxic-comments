@@ -20,7 +20,10 @@ This competition is evaluated using the **Average Agreement with Annotators**. T
 
 Here our prediction gave a score of toxicity higher to the first comment, than the second one, which is not matching what the worker judged. Thus this pair receives a 0. Inversely if the prediction was matching the worker judgement, the pair would have received a 1.
 
+Thus it has no importance if the toxicity score is ranging from 0 to 1 or from -1 to 1 or even from -999 to 999. The idea is just to be able to compare based on the predicted score two comments.
+
 Finally, we take the average of all this match with the predictions which gives us the ranking for kaggle.
+
 
 
 ## Cleaning the data
