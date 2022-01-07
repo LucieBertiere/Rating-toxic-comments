@@ -163,6 +163,7 @@ To improve our score we decided to use another training set from a previous Jigs
 
 #### Using SVD and LGBM:
 
+SVD is for singular value decomposition which is a method based on matrix factorization and it does not assume that the matrix is quadratic (PCA does). While PCA centers the data before doing SVD, truncated SVD does not. We will use *Truncated SVD* on TF-IDF as it works on TF-IDF matrices as returned by the vectorizers on text classification. 
 
 #### Using Ridge Regression :
 Using the same Ridge model as the one we did with the first idea, we increase our score by almost 0.01.
