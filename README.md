@@ -195,7 +195,10 @@ Using this ensemble method helped us to go over the 0.8 of accuracy, and increas
 
 #### Using Linear Regression
 
-with weights
+Linear Regression is a supervized machine learning method where the model is going to find between the independent and dependent variables the best fit linear line. 
+For this model, we created a score being the sum of the six categories of comments and we added more weights (weights = 3) to the comments of *severe toxic*, *threat* and *identity hate* to give them more importance in the data. 
+
+
 
 We have the same results as in most of the papers, the Ridge Regression tends to have a better accuracy thanks to its coefficients selection.
 
