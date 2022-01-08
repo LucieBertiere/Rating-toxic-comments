@@ -232,3 +232,15 @@ We built different models, which were all having an Average Agreement with Annot
 (1) https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 (2) https://corporatefinanceinstitute.com/resources/knowledge/other/ridge/
+
+(3) https://medium.com/@invest_gs/classifying-tweets-with-lightgbm-and-the-universal-sentence-encoder-2a0208de0424
+
+(4) https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a
+
+(5) https://github.com/microsoft/LightGBM/issues/3511
+
+(6) https://www.analyticsvidhya.com/blog/2021/08/complete-guide-on-how-to-use-lightgbm-in-python/
+
+(7) http://pavelbazin.com/post/linear-regression-hyperparameters/#hyperparameters
+
+
