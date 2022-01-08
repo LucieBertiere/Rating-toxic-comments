@@ -163,7 +163,19 @@ To improve our score we decided to use another training set from a previous Jigs
 
 #### Using SVD and LGBM:
 
-SVD is for singular value decomposition which is a method based on matrix factorization and it does not assume that the matrix is quadratic (PCA does). While PCA centers the data before doing SVD, truncated SVD does not. We will use *Truncated SVD* on TF-IDF as it works on TF-IDF matrices as returned by the vectorizers on text classification. 
+**SVD** is for singular value decomposition which is a method based on matrix factorization and it does not assume that the matrix is quadratic (PCA does). While PCA centers the data before doing SVD, truncated SVD does not. We will use *Truncated SVD* on TF-IDF as it works on TF-IDF matrices as returned by the vectorizers on text classification. We do that to implement later the LGBM model.
+
+**Light GBM** is a case of gradient boosting using a tree-based learning algorithm and can be used for classification and regression problems. This algorithm has many advantages such as a faster training speed, higher efficiency, higher accuracy, less expensive in terms of calculation, handle large datasets, etc. The algorithms based on trees grow the tree horizontally while LGBM grows the tree vertically. The latter grows the tree by leaves. 
+There are some important parameters to be tuned: *max_depth* which corresponds to the maximum tree depth (*default* = -1); *learning_rate* which corresponds to the boosting learning rate and will determine the impact of each tree on the final output (*default* = 0.1); *num_leaves* corresponding to the maximum tree leaves in the tree (*default* = 31); *colsample_bytree* corresponding to the subsample ratio of columns when each tree is constructed (*default* = 1); *subsample* corresponding to the sub-sample report of the training body (*default* = 1); *reg_alpha* which is the L1 regularization term on weights (*default* = 0); *reg_lambda* which is the same as for *reg_alpha* but with the L2 regularization term on weights (*default* = 0); *n_estimators* which is the number of boosted trees to fit (*default* = 100). 
+By tuning this parameters we obtain an accuracy equal to 0.758
+
+<div align="center">
+  
+|          **Model**          | **Accuracy** |
+|:---------------------------:|:------------:|
+|           SVD-LGBM          |     0.758    |
+  
+</div>
 
 #### Using Ridge Regression :
 Using the same Ridge model as the one we did with the first idea, we increase our score by almost 0.01.
@@ -194,7 +206,7 @@ We have the same results as in most of the papers, the Ridge Regression tends to
   
 |          **Model**          | **Accuracy** |
 |:---------------------------:|:------------:|
-|             SVD-LGBM             |     0.758    |
+|           SVD-LGBM          |     0.758    |
 |            Ridge            |     0.767    |
 |      Ridge with weights     |     0.783    |
 | Ensemble Ridge with weights |     0.803    |
