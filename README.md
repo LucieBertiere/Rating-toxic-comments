@@ -196,7 +196,7 @@ Using this ensemble method helped us to go over the 0.8 of accuracy, and increas
 #### Using Linear Regression
 
 Linear Regression is a supervized machine learning method where the model is going to find between the independent and dependent variables the best fit linear line. The advantage of this algorithm is that it is very easy to implement. It models a target value, here the score explained in the following lines. 
-For this model, we created a score being the sum of the six categories of comments and we added more weights (weights = 3) to the comments of *severe toxic*, *threat* and *identity hate* to give them more importance in the data. We only kept 25 000 words to train our model at first, and then we tried with the first 30 000 words. However, by increasing the number of words, the accuracy deteriorates: from 0.685 to 0.676. We also tried with all the words in the dataset but it only improved the accuracy a bit with respect to the first case. We got 0.676.
+For this model, we created a score being the sum of the six categories of comments and we added more weights (weights = 3) to the comments of *severe toxic*, *threat* and *identity hate* to give them more importance in the data. We only kept 25 000 words to train our model at first, and then we tried with the first 30 000 words. However, by increasing the number of words, the accuracy deteriorates: from 0.685 to 0.676. We also tried with all the words in the dataset and the accuracy improved with respect to the two other cases: we got 0.686.
 
 
 
@@ -230,7 +230,7 @@ We have the same results as in most of the papers, the Ridge Regression tends to
 |   Idea 2  |            Ridge            |     0.767    |
 |   Idea 2  |      Ridge with weights     |     0.783    |
 |   Idea 2  | Ensemble Ridge with weights |     0.803    |
-|   Idea 2  |       LR with weights       |     0.685    |
+|   Idea 2  |       LR with weights       |     0.686    |
   
 </div>
 
