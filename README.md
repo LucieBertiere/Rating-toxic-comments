@@ -102,7 +102,7 @@ The most **frequent words** appearing in this dataset are "article", "page" and 
 
 **Unbalanced data**
 
-We have noticed that this data is quite unbalanced by creating a score based on the sum of each of the 5 categories. By creating this new variable, we observed that almost 90% of the comments had a score of 0, which means that they were neutral because they did not belong to one of the five categories. In the following plot the different frequencies can be seen:
+We have noticed that this data is quite unbalanced by creating a score based on the sum of each of the 5 categories. By creating this new variable, we observed that almost 90% of the comments had a score of 0, which means that they were neutral because they did not belong to one of the six categories. In the following plot the different frequencies can be seen:
 
 <div align="center">
   
