@@ -52,7 +52,6 @@ There are 7537 comments to score. Here is the wordcloud of these comments.
 
 We can observe that the words that appear most frequently are "article", "fuck", "wikipedia", "page", "people" and "suck".
 
-
 As said before, there are less and more toxic comments in the available dataset. The wordcloud corresponding to the less toxic comments is:
 
 <div align="center">
